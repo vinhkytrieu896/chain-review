@@ -1,0 +1,35 @@
+.course-summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.course-summary {
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
+  background: white;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.course-summary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.course-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.course-rating,
+.course-no-reviews {
+  font-size: 16px;
+  opacity: 0.9;
+}
